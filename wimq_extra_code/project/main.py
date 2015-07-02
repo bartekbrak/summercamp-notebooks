@@ -1,5 +1,5 @@
 import wimq
-from wimq_extra_code.project.workers import WorkerX
+from .workers import WorkerX
 
 
 def main():
@@ -10,7 +10,6 @@ def main():
             'wimq.password': 'test',
             'wimq.vhost': 'test',
             'wimq.locker_host': 'localhost:11211',
-            'wimq.log': 'logs.txt',
         })
     app = wimq.App(config_provider)
     app.register_worker(WorkerX)
