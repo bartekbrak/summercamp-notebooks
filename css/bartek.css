@@ -1,0 +1,17 @@
+.navbar-brand, .current_kernel_logo {display:none}
+.container {
+    width:700px;    
+}
+.rendered_html pre {border: 1px solid #cfcfcf; background-color: #f7f7f7; padding:5px}
+.rendered_html pre, .rendered_html code {background-color: #f7f7f7}
+div.prompt { /* remove In/Out prompt */
+    display: none;
+}
+div.output_stdout pre {
+    border: 1px solid #cfcfcf; background-color: #f7f7f7; padding:5px; color: maroon;
+}
+/* hide stdout overlay, prevents copying */
+div.out_prompt_overlay {
+    display:none !important;
+}
+
