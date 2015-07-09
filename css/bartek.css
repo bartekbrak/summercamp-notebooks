@@ -1,3 +1,4 @@
+.navbar-brand, .current_kernel_logo {display:none}
 .container {
     width:700px;    
 }
