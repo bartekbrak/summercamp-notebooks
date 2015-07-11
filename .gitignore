@@ -1,4 +1,4 @@
-/.ipynb_checkpoints
+.ipynb_checkpoints
 /wimq_extra_code/build
 /sample_project.egg-info
 *.pyc
